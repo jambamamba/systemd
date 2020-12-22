@@ -1,0 +1,19 @@
+[host_machine]
+system = 'linux'
+cpu_family = 'arm'
+cpu = 'armv6l'
+endian = 'little'
+
+[properties]
+c_args = ['-Iinclude/']
+c_link_args = ['-Llib/']
+cpp_args = []
+cpp_link_args = []
+
+[binaries]
+c = '/home/dev/oosman/.leila/toolchains/rpi/x-tools/arm-rpi-linux-gnueabihf/bin/arm-rpi-linux-gnueabihf-gcc'
+cpp = '/home/dev/oosman/.leila/toolchains/rpi/x-tools/arm-rpi-linux-gnueabihf/bin/arm-rpi-linux-gnueabihf-g++'
+ar = '/home/dev/oosman/.leila/toolchains/rpi/x-tools/arm-rpi-linux-gnueabihf/bin/arm-rpi-linux-gnueabihf-ar'
+strip = '/home/dev/oosman/.leila/toolchains/rpi/x-tools/arm-rpi-linux-gnueabihf/bin/arm-rpi-linux-gnueabihf-strip'
+pkgconfig = '/usr/bin/pkg-config'
+
